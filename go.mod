@@ -1,6 +1,8 @@
 module github.com/khulnasoft-lab/dnsx
 
-go 1.19
+go 1.23.0
+
+toolchain go1.24.6
 
 require (
 	github.com/khulnasoft-lab/asnmap v1.0.1
@@ -15,7 +17,7 @@ require (
 	github.com/khulnasoft-lab/retryabledns v1.0.34
 	github.com/khulnasoft-lab/utils v0.0.47
 	github.com/logrusorgru/aurora v2.0.3+incompatible
-	github.com/miekg/dns v1.1.56
+	github.com/miekg/dns v1.1.68
 	github.com/pkg/errors v0.9.1
 	github.com/rs/xid v1.5.0
 	github.com/stretchr/testify v1.8.4
@@ -80,14 +82,15 @@ require (
 	github.com/yuin/goldmark-emoji v1.0.1 // indirect
 	go.etcd.io/bbolt v1.3.7 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
-	golang.org/x/crypto v0.14.0 // indirect
+	golang.org/x/crypto v0.38.0 // indirect
 	golang.org/x/exp v0.0.0-20230905200255-921286631fa9 // indirect
-	golang.org/x/mod v0.12.0 // indirect
-	golang.org/x/net v0.17.0 // indirect
+	golang.org/x/mod v0.24.0 // indirect
+	golang.org/x/net v0.40.0 // indirect
 	golang.org/x/oauth2 v0.13.0 // indirect
-	golang.org/x/sys v0.13.0 // indirect
-	golang.org/x/text v0.13.0 // indirect
-	golang.org/x/tools v0.13.0 // indirect
+	golang.org/x/sync v0.14.0 // indirect
+	golang.org/x/sys v0.33.0 // indirect
+	golang.org/x/text v0.25.0 // indirect
+	golang.org/x/tools v0.33.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
 	gopkg.in/djherbis/times.v1 v1.3.0 // indirect
